@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.layout {
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0px;
+}
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  background-color: blueviolet;
+}
+.logo_wrapper {
+  display: flex;
+  align-items: center;
+}
+.logo_wrapper > span {
+  text-transform: uppercase;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.menu_wrapper > ul {
+  list-style-type: none;
+  display: flex;
+}
+.menu_wrapper > ul > li {
+  margin-left: 10px;
+}
+.menu_wrapper > ul > li > a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+.menu_wrapper > ul > li > a:hover {
+  color: #fff;
+}
+.hero {
+  display: flex;
+}
+.hero > div {
+  width: 50%;
+}
+.hero__image {
+  width: 100%;
+  padding: 50px;
+}
+.hero__image > img {
+  width: 100%;
+  height: auto;
+}
+.hero__info {
+  padding: 50px;
+}
+.hero__info > h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: blueviolet;
+  margin: 0px;
+}
+.education_wrapper {
+  width: 100%;
+  overflow-y: auto;
+  padding: 50px 0;
+}
+.education_wrapper > table {
+  width: 100%;
+}
+.edu_title {
+  text-transform: uppercase;
+  text-align: center;
+  color: blueviolet;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.contact_wrapper {
+  padding: 50px 0px;
+}
+
+.contact_title {
+  text-transform: uppercase;
+  text-align: center;
+  color: blueviolet;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+form {
+  padding: 30px;
+  border-radius: 5px;
+  background-color: lightgray;
+  width: 50%;
+  margin: 0px auto;
+}
+
+.input {
+  padding: 10px 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  width: 100%;
+}
+.label {
+  margin-bottom: 5px;
+  width: 100%;
+  margin-right: 0px;
+}
+.footer_wrapper {
+  background-color: black;
+  margin: 0px;
+}
+.footer > ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.footer > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
